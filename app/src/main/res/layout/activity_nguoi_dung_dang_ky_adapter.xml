@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/white"
+    android:elevation="5dp">
+
+
+    <TextView
+        android:id="@+id/txttendangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/txthoten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txttaikhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <TextView
+        android:id="@+id/txtmatkhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/txtngaysinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/txtdiachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+
+    <ImageView
+        android:id="@+id/imghinhanh"
+        android:layout_width="147dp"
+        android:layout_height="125dp"
+        app:srcCompat="@drawable/account"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+</LinearLayout>

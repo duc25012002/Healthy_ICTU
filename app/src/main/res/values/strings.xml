@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Healthy_ICTU</string>
+
+    <string name="facebook_app_id">527752578897323</string>
+    <string name="fb_login_protocol_scheme">fb527752578897323</string>
+    <string name="facebook_client_token">75501c6b2553584ca0b114684af0d83f</string>
+    <string name="login_title">ĐĂNG NHẬP</string>
+    <string name="login_lable1">Tài Khoản</string>
+    <string name="login_lable2">Mật Khẩu</string>
+    <string name="login_btn">Đăng nhập</string>
+    <string name="register_title">TẠO TÀI KHOẢN</string>
+    <string name="register_email">Email</string>
+    <string name="register_btn">Đăng Ký</string>
+    <string name="healthy_ictu">HEALTHY - ICTU</string>
+
+
+</resources>

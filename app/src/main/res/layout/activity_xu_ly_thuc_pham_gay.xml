@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgr"
+    tools:context=".Activity.XuLyThucPhamGay">
+
+    <TextView
+        android:id="@+id/txtTieuDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Đăng thực phẩm"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtTenThucPham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Tên thực phẩm"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTieuDe"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/edtDiaChiBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:ems="@integer/material_motion_duration_long_1"
+        android:hint="Địa chỉ"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtGiaCa" />
+
+    <EditText
+        android:id="@+id/edtGiaCa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:hint="Mức giá"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtTenThucPham" />
+
+
+    <ImageView
+        android:id="@+id/imgATP"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTieuDe"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <Button
+        android:id="@+id/btnThoatDang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#487F81"
+        android:text="Thoát"
+        app:layout_constraintEnd_toStartOf="@+id/btnXacNhanDang"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtDiaChiBan" />
+
+    <Button
+        android:id="@+id/btnXacNhanDang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="55dp"
+        android:backgroundTint="#487F81"
+        android:text="Xác nhận"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnThoatDang"
+        app:layout_constraintTop_toBottomOf="@id/edtDiaChiBan" />
+
+    <Button
+        android:id="@+id/btnChonAnhThucPham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="58dp"
+        android:backgroundTint="#487F81"
+        android:text="Chọn ảnh"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgATP" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

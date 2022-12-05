@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Healthy_ICTU" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#C3CDFE</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#C3CDFE</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="StyleTim">
+        <!-- Used for the bottom line when not selected / focused -->
+        <item name="colorControlNormal">#C3CDFE</item>
+        <!-- colorControlActivated & colorControlHighlight use the colorAccent color by default -->
+    </style>
+
+    <style name="MyEditTextTheme">
+        <!-- Used for the bottom line when not selected / focused -->
+        <item name="colorControlNormal">@color/white</item>
+        <!-- colorControlActivated & colorControlHighlight use the colorAccent color by default -->
+    </style>
+</resources>
